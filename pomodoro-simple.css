@@ -1,0 +1,50 @@
+body {
+}
+
+h1 {
+    display: none;
+}
+
+#headerimg {
+    display: none;
+}
+
+#ui {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    display: inline-block;
+}
+
+#time {
+}
+
+button {
+}
+
+#start_btn {
+    display: block;
+}
+
+#stop_btn {
+    display: none;
+}
+
+.btn_img {
+    height: 20px;
+}
+
+#work_btn {
+}
+
+#rest_btn {
+}
+
+#audio {
+    display: none;
+}
+
+#counter {
+    font-size: xx-large;
+    font-family: "Comic Sans MS";
+    margin-top: 2.4%;
+}

@@ -1,0 +1,93 @@
+body {
+    background-color: #e22;
+    color: #b00;
+    font-family: "Verdana";
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+    color: darkgreen;
+}
+
+#ui {
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    display: inline-block;
+    height: 60vh;
+}
+
+#headerimg {
+    height: 36vh;
+    margin-top: 0%;
+    margin-bottom: -2vh;
+}
+
+#time {
+    font-family: "Verdana";
+    text-align: center;
+    background-color: #ccffcc;
+    border: none;
+}
+
+button {
+    border: none;
+    background: transparent;
+    border-style: none;
+    border-radius: 20px;
+    font-family: Verdana";
+    font-weight: bolder;
+    font-size: 100%;
+    color: #d11;
+}
+
+#start_btn {
+    display: block;
+    margin-left: 41%;
+    opacity: 0.6;
+}
+
+#start_btn:hover {
+    opacity: 1;
+}
+
+#stop_btn {
+    display: none;
+    margin-left: 41%;
+    opacity: 0.6;
+}
+
+#stop_btn:hover {
+    opacity: 1;
+}
+
+#work_btn {
+    height: 5%;
+    background: #f55;
+}
+
+#work_btn:hover {
+    background: #d11;
+    color: #f55;
+}
+
+#rest_btn {
+    height: 5%;
+    background: #f55;
+}
+
+#rest_btn:hover { 
+    background: #d11;
+    color: #f55;
+}
+
+#audio {
+    display: none;
+}
+
+#counter {
+    font-size: 2cm;
+    font-family: "Verdana";
+    text-align: center;
+    margin-top: 2.4%;
+}

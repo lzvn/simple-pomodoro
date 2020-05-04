@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="pomodoro.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <script src="pomodoro.js"></script>
+    <!--Auxiliary scripts-->
+    <script>
+    </script>
+</head>
+
+<body>
+
+<img src="img/tomato.png" alt="A tomato" id = "headerimg">
+<br>
+
+<div id = "ui">
+
+    <h1>Pomodoro Timer</h1>
+
+    <input id = 'time' type="text" placeholder="Minutes to count"> <br>
+
+    <button 
+        id = "start_btn"
+        onclick = "Start('start_btn', 'stop_btn', 'work_btn', 'rest_btn', 'time', 'audio', 'counter')"
+    >
+    <img src="img/start.png" alt="Start" class = "btn_img">
+    </button>
+
+    <button
+        id = "stop_btn"
+        onclick="Stop('start_btn', 'stop_btn', 'work_btn', 'rest_btn', 'audio', 'counter')"
+    >
+    <img src="img/stop.png" alt="Stop" class = "btn_img">
+    </button>
+    
+    <button
+    id = "work_btn"
+    onclick = "
+        document.getElementById('time').value = '25';
+        document.getElementById('start_btn').click();
+        "
+    >
+    Work/Study
+    </button>
+
+    <button
+    id = "rest_btn"
+    onclick = "
+        document.getElementById('time').value = '5';
+        document.getElementById('start_btn').click();
+        "
+    >
+    Rest
+    </button>
+
+    <p id = "counter">00:00</p>
+
+</div>
+
+    <!--I hate both audio and video because I was using a video when I wrote the code-->
+    <!--
+    <video id = "audio" controls loop>
+        <source src="audio.mp4" type="video/mp4">
+    </video>
+    -->
+    <audio id = "audio" controls loop>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>   
+</body>
+</html>
