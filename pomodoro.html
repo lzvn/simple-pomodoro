@@ -26,6 +26,7 @@
 
     <button 
         id = "start_btn"
+        class = "startstop_btn"
         onclick = "Start('start_btn', 'stop_btn', 'work_btn', 'rest_btn', 'time', 'audio', 'counter')"
     >
     <img src="img/start.png" alt="Start" class = "btn_img">
@@ -33,6 +34,7 @@
 
     <button
         id = "stop_btn"
+        class = "startstop_btn"
         onclick="Stop('start_btn', 'stop_btn', 'work_btn', 'rest_btn', 'audio', 'counter')"
     >
     <img src="img/stop.png" alt="Stop" class = "btn_img">
@@ -40,6 +42,7 @@
     
     <button
     id = "work_btn"
+    class = "workrest_btn"
     onclick = "
         document.getElementById('time').value = '25';
         document.getElementById('start_btn').click();
@@ -50,6 +53,7 @@
 
     <button
     id = "rest_btn"
+    class = "workrest_btn"
     onclick = "
         document.getElementById('time').value = '5';
         document.getElementById('start_btn').click();
